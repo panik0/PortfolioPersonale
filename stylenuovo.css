@@ -17,15 +17,12 @@ header{
 }
 
 title{
-    
-    
     font-style: normal;
     color: rgb(0, 0, 0);
     
 }
 body{
     background-color:rgb(217, 217, 217);
-
 }
 footer{
     background-color: rgb(0, 255, 209);
@@ -66,6 +63,7 @@ img{
     padding-bottom: 50px;
     object-position: center;
     border-radius: 10px;
+    
 }    
 .descrizione{
     margin-left: 360px;
@@ -99,24 +97,43 @@ h5{
     
     
 }
-.foto{
+.flexbox{
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-items: auto;
     margin-left: 360px;
-    margin-top: -370px;
+    margin-top: -400px;
     margin-bottom: 50px;
     object-fit: contain;
+    
+}
+.img1{
+    box-shadow: 0px 20px 20px rgb(95, 95, 95);
+}
+.img2{
+    box-shadow: 0px 20px 20px rgb(95, 95, 95);
+}
+.img3{
+    box-shadow: 0px 20px 20px rgb(95, 95, 95);
 }
 .menu{
+    clear: both;
     font-size: 25px;
     font-style: normal;
     color: rgb(0, 0, 0);
     text-align: left;
     margin-left: 60px;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
     width:150px;
     background-color: aquamarine;
     padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
+    box-shadow: 0px 20px 20px rgb(95, 95, 95);
 }
 p{
     color: black;
@@ -185,7 +202,7 @@ img{
     height: 300px;
     max-height: fit-content;
     border: 5px solid rgb(255, 255, 255);
-    margin-left: 200px;
+    margin-left:200px;
     margin-right: 0%;
     margin-top: 10px;
     padding: 3px;
@@ -226,7 +243,7 @@ h5{
     
     
 }
-.foto{
+.flexbox{
     margin-left: 150px;
     margin-right: 0px;
     margin-top: 50px;
@@ -239,10 +256,11 @@ h5{
     text-align: left;
     margin-left: 250px;
     margin-top: 50px;
-    
     width:150px;
     background-color: aquamarine;
     padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
 }
 p{
@@ -354,11 +372,16 @@ h5{
     
     
 }
-.foto{
-    margin-left: 100px;
+.flexbox{
+    margin-left: 50px;
     margin-right: 0px;
     margin-top: 50px;
     object-fit: contain;
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-items: auto;
 }
 .menu{
     font-size: 25px;
@@ -367,10 +390,11 @@ h5{
     text-align: left;
     margin-left: 150px;
     margin-top: 50px;
-    
     width:150px;
     background-color: aquamarine;
     padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 10px;
 }
 p{
