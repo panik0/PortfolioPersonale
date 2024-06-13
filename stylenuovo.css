@@ -139,6 +139,7 @@ p{
     color: black;
     text-align: center;
 }
+
 @media (max-width:800px){
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 *{
@@ -266,7 +267,8 @@ h5{
 p{
     color: black;
     text-align: center;
-}
+ }
+    
 }
 @media (max-width:640px){
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
@@ -400,7 +402,8 @@ h5{
 p{
     color: black;
     text-align: center;
-}
+ }
+    
 }
 @media (max-width:370px){
     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
@@ -531,5 +534,6 @@ h5{
 p{
     color: black;
     text-align: center;
-}
+ }
+    
 }
